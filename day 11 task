@@ -1,0 +1,254 @@
+1.Fix the bugs in below snippet:
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Document</title>
+    </head>
+     <body>
+          guvi
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+     </div>
+     <div>
+        Guvi Geek Network
+     </div>
+     </body>
+    </html>
+    
+    
+3.Design a contact us form with all fields as required:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Form</title>
+    <style>
+        form{
+            font-size: 30px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight:700;
+            width: 100%;
+            background-color: rgb(243, 157, 157);
+        }
+        input[type=text,email,pwd], select, textarea{
+            width: 30%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            resize: vertical;
+            }
+    </style>
+</head>
+<body>
+    <form>
+    <h1 style="margin-left: 40%;">CONTACT US</h1>
+    <label style="padding: 12px 12px 12px 0;
+    display: inline-block;width: 25%;
+  margin-top: 6px;" for="fn">First Name</label>
+    <input style="font-size: 1em;" type="text" name="fn" id="fn" placeholder="Your name" required><br>
+    <label style="padding: 12px 12px 12px 0;
+    display: inline-block;width: 25%;
+  margin-top: 6px;" for="ln">Last Name</label>
+    <input style="font-size: 1em;" type="text" name="ln" id="ln" placeholder="Your lastname" required><br>
+    <label style="padding: 12px 12px 12px 0;
+    display: inline-block;width: 25%;
+  margin-top: 6px;" for="email">E-Mail ID</label>
+    <input style="font-size: 1em;" type="email" name="email" id="email" placeholder="Your E-mail" required><br>
+    <label style="padding: 12px 12px 12px 0;
+    display: inline-block;width: 25%;
+  margin-top: 6px;" for="pwd">Password</label>
+    <input style="font-size: 1em;" type="password" name="pwd" id="pwd" placeholder="Your password" required><br>
+    <label style="padding: 12px 12px 12px 0;
+    display: inline-block;width: 25%;
+  margin-top: 6px;" for="city">City</label>
+    <select style="font-size: 1em;" id="city" name="city">
+        <option value="Chennai">Chennai</option>
+        <option value="Coimbatore">Coimbatore</option>
+        <option value="Madurai">Madurai</option>
+        <option value="Trichy">Trichy</option>
+      </select><br>
+    <label style="padding: 12px 12px 12px 0;
+    display: inline-block;width: 25%;
+  margin-top: 6px;" for="state">State</label>
+    <select style="font-size: 1em;" id="state" name="state">
+        <option value="tamilnadu">Tamilnadu</option>
+        <option value="kerala">Kerala</option>
+        <option value="Andhrapradesh">Andhrapradesh</option>
+        <option value="karnataka">Karnataka</option>
+      </select><br>
+    <label style="padding: 12px 12px 12px 0;
+    display: inline-block;width: 25%;
+  margin-top: 6px;" for="country">Country</label>
+    <select style="font-size: 1em;" id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="india">India</option>
+        <option value="usa">USA</option>
+      </select><br>
+    <label style="padding: 12px 12px 12px 0;
+    display: inline-block;width: 25%;
+  margin-top: 6px;" for="zip">Zip</label>
+    <input style="font-size: 1em;" type="text" name="zip" id="zip" required><br>
+    <label style="padding: 12px 12px 12px 0;
+    display: inline-block;width: 25%;
+  margin-top: 6px;" for="subject">Subject</label>
+    <textarea id="subject" name="subject" style="padding: 12px 12px 12px 0;height: 200px;width: 375px;">
+    </textarea><br><br>
+    <input style="  background-color: #0022b9;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  " type="submit" value="Submit">
+</form>
+</body>
+</html>
+
+
+4.Use certain HTML elements to display the following in a HTML page.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full stack developer</title>
+</head>
+<body>
+    <form>
+        <ul style="line-height: 25px;">Programming Language
+            <ul>
+            <li>Javascript
+                <ul>
+                <li type="a">Angular</li>
+                <li type="a">React</li>
+                <li type="a">Vue.js</li>
+                
+            </li>
+            </ul>
+            <li>Python
+                <ul>
+                <li type="a">Django Framework</li>
+                <li type="a">Flask Framework</li>
+            </ul>
+            </li>
+            <li>Java
+                <ul>
+                <li type="a">Spring</li>
+                <li type="a">Maven</li>
+                <li type="a">Hibernate</li>
+            </ul>
+        </ul>
+            </li>
+        </ul>
+        <ul style="line-height: 25px;">Database
+            <ul>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <li>Cansandra</li>
+        </ul>
+        </ul>
+    </form>
+</body>
+</html>
+
+5.Create an element that helps you to open the https://google.com in separate new tab:
+ <a href="https://google.com" target="_blank">Google</a>
+ 
+6.In the form, add two radio buttons with grouping them for employee type(Salaried and own business):
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+</head>
+<body>
+    <label for="sal">Employee type</label>
+    <input type="radio" id="sal" name="sal" value="salaried">Salaried
+    <input type="radio" id="sal" name="sal" value="own business">Own business
+</body>
+</html>
+
+10.In your, HTML page add the below line and Highlight it without using any CSS:
+<mark>"HTML & CSS is awesome"</mark>
+
+11.Create an HTML page, which should contain all types of input elements:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of Input elements</title>
+    <style>
+        label{
+            padding-left: 30%;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="padding-left: 40%;">Input Elements</h1>
+    <label>Button</label>
+    <input type="button"><br>
+    <label>Checkbox</label>
+    <input type="checkbox"><br>
+    <label>color</label>
+    <input type="color"><br>
+    <label>Date</label>
+    <input type="date"><br>
+    <label>Date-Time</label>
+    <input type="datetime"><br>
+    <label>Datetime-Local</label>
+    <input type="datetime-local"><br>
+    <label>E-Mail</label>
+    <input type="email"><br>
+    <label>File</label>
+    <input type="file"><br>
+    <label>Hidden</label>
+    <input type="hidden"><br>
+    <label>Image</label>
+    <input type="image"><br>
+    <label>Month</label>
+    <input type="month"><br>
+    <label>Number</label>
+    <input type="number"><br>
+    <label>Password</label>
+    <input type="password"><br>
+    <label>Radio</label>
+    <input type="radio"><br>
+    <label>Range</label>
+    <input type="range"><br>
+    <label>Reset</label>
+    <input type="reset"><br>
+    <label>Search</label>
+    <input type="search"><br>
+    <label>Submit</label>
+    <input type="submit"><br>
+    <label>Telephone</label>
+    <input type="tel"><br>
+    <label>Text</label>
+    <input type="text"><br>
+    <label>Time</label>
+    <input type="time"><br>
+    <label>URL</label>
+    <input type="url"><br>
+    <label>Week</label>
+    <input type="week"><br>
+</body>
+</html>
+
+
+
+
